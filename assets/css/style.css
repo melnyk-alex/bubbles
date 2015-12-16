@@ -1,0 +1,53 @@
+#block {
+    /* 20x15 */
+    width: 640px;
+    height: 480px;
+
+    line-height: 0px;
+
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    background-color: lightgray;
+}
+
+.bubble {
+    /*position: absolute;*/
+    margin: 4px;
+
+    width: 22px;
+    height: 22px;
+
+    border: solid 1px rgba(155,155,155,1);
+
+    display: inline-block;
+
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+
+    -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+
+    background-color: white;
+}
+
+.bubble.fake {
+
+    width: 24px;
+    height: 24px;
+
+    border: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    background-color: transparent;
+}
+
+.scores {
+    font-size: 2em;
+}
